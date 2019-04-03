@@ -1,0 +1,403 @@
+	body {
+		background:#ff9a9e; 
+		padding:0;
+		margin:0;
+		width: auto;
+		height: 100%;
+	}
+
+
+	.pink {
+		width:100%;
+		height:1280px;
+		background: transparent url('http://alliwalk.com/sites/sugarsugar/img/sugar.jpeg') top left;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	}
+
+
+/*Candy*/
+	.birthdaycake {
+		width: 769px;
+		height:749px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/birthdaycake-min.png') 0 0 no-repeat;
+	}
+	.candycane {
+		width: 200px;
+		height:337px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/candycane-min.png') 0 0 no-repeat;
+	}
+	
+	.butterpecan {
+		width: 690px;
+		height:622px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/butter-pecan-min.png') 0 0 no-repeat;
+	}
+	.caramel {
+		width:420px;
+		height:500px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/caramel.png') 0 0 no-repeat;
+	}
+	.chocolateglaze {
+		width:772px;
+		height:750px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/chocolateglaze-min.png') 0 0 no-repeat;
+	}	
+	.donutpink {
+		width:225px;
+		height:225px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/donutpink-min.png') 0 0 no-repeat;
+	}	
+	.mm {
+		width:420px;
+		height:500px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/mm-min.png') 0 0 no-repeat;
+	}	
+	.cinnamon {
+		width:420px;
+		height:500px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/cinnamon-min.png') 0 0 no-repeat;
+	}	
+
+	.stack {
+		width:280px;
+		height:200px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/stack-min.png') 0 0 no-repeat;
+	}	
+	.nutrageous {
+		width:500px;
+		height:500px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/nutrageous.png') 0 0 no-repeat;
+	}
+	.glazed {
+		width:420px;
+		height:500px;
+		position:absolute;
+		background:transparent url(img/glazed-min.png) 0 0 no-repeat;
+	}
+
+	.jellydonut {
+		width:600px;
+		height:483px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/jellydonut-min.png') 0 0 no-repeat;
+	}
+	.sprinkles {
+		width:420px;
+		height:500px;
+		position:absolute;
+		background:transparent url('http://alliwalk.com/sites/sugarsugar/img/sprinkles-min.png') 0 0 no-repeat;
+	}
+
+
+
+
+/* distance from top / level */
+	.birthdaycake_drift {
+		top:520px;
+		z-index: 500;
+		animation: caramel 105s 10s linear infinite backwards;	
+	}
+
+	.jellydonut_drift {
+		top:600px;
+		z-index: 500;
+		opacity: .8;
+		animation: jellydonut 105s 10s linear infinite backwards;	
+	}
+
+	.candycane_drift {
+		top:55px;
+		z-index:100;
+		animation: drift 15s linear infinite; 
+	}
+	.candycane_drift_2 {
+		top:312px;
+		z-index: 100;
+		animation: drift 25s 10s linear infinite backwards;	
+	}
+	.candycane_drift_3 {
+		top:566px;
+		z-index: 100;
+		animation: drift 25s 20s linear infinite backwards;	
+	}
+	.candycane_drift_4 {
+		top:712px;
+		z-index: 100;
+		animation: drift 15s 5s linear infinite backwards;	
+	}
+	.donutpink_drift {
+		top:125px;
+		z-index:100;
+		opacity: .85;
+		animation: donutpink 50s linear infinite backwards;
+	}
+	.donutpink_drift_2 {
+		top:425px;
+		z-index:100;
+		opacity: .85;
+		animation: donutpink 76s linear infinite backwards;
+	}
+	.donutpink_drift_3 {
+		top:775px;
+		z-index:100;
+		opacity: .85;
+		animation: donutpink 62s 20s linear infinite backwards;
+	}
+	.butterpecan_drift {
+		top:219px;
+		z-index:300;
+		animation: butterpecan 42s 10s linear infinite backwards;
+	}
+	.caramel_drift {
+		top:-198px;
+		z-index:400;
+		animation: caramel 36s 10s linear infinite backwards;
+	}
+	.cinnamon_drift {
+		top:-198px;
+		z-index:400;
+		animation: cinnamon 36s 20s linear infinite backwards;
+	}
+	.chocolateglaze_drift {
+		top: -40px;
+		z-index:200;
+		animation: chocolateglaze 98s 10s linear infinite backwards;
+	}
+	.mm_drift {
+		top:440px;
+		z-index: 500;
+		animation: mm 50s linear infinite;	
+	}
+	.stack_drift {
+		top:-200px;
+		left: 650px;
+		z-index: 300;
+		animation: stack 30s linear infinite;	
+	}
+	.stack_drift_2 {
+		top:-100px;
+		left: 200px;
+		z-index: 300;
+		animation: stack 30s 20s linear infinite backwards;	
+	}
+	.stack_drift_3 {
+		top:100px;
+		left: 1020px;
+		z-index: 300;
+		animation: stack 30s 40s linear infinite backwards;	
+	}
+	.nutrageous_drift {
+		top:-550px;
+		left: 950px;
+		z-index: 500;
+		animation: stack 34s linear infinite backwards;	
+	}
+
+	/*Right to Left*/
+	.glazed_drift {
+		top:800px;
+		/*left: 200px;*/
+		z-index: 500;
+		animation: caramel 41s 9s linear infinite backwards;	
+	}
+
+	.sprinkles_drift {
+		top:-40px;
+		/*left: 200px;*/
+		z-index: 500;
+		animation: caramel 27s 9s linear infinite backwards;	
+	}
+
+/*   Keyframes From left to right    */
+
+
+@keyframes drift {
+  0% {
+    transform: translateX(-255px);
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(1200px);
+  }
+}
+
+/*left to right*/
+@keyframes caramel {
+ 0% {
+    transform: translateX(-955px);
+    opacity: 0;
+  }
+  43%{
+  	opacity: 1
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(1250px);
+  }
+}
+/*left to right*/
+@keyframes birthdaycake {
+ 0% {
+    transform: translateX(-955px);
+    opacity: 0;
+  }
+  23%{
+  	opacity: 1
+  }
+  87%{
+  	opacity: 1;
+  }
+  88% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(950px);
+  }
+}
+
+
+/*left to right*/
+@keyframes mm {
+  0% {
+    transform: translateX(-255px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90%{
+  	opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(960px);
+  }
+}
+
+/*right to left*/
+@keyframes chocolateglaze {
+  0% {
+    transform: translateX(800px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-955px);
+  }
+}	
+
+/*right to left*/
+@keyframes butterpecan {
+  0% {
+    transform: translateX(800px);
+    opacity: 0;
+  }
+  22% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-955px);
+  }
+}
+/*right to left*/
+@keyframes cinnamon {
+ 0% {
+    transform: translateX(950px);
+    opacity: 0;
+  }
+  40%{
+  	opacity: 1
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-955px);
+  }
+}
+/*right to left*/
+@keyframes donutpink {
+  0% {
+    transform: translateX(1150px);
+    opacity: 0;
+  }
+  10%{
+  	opacity: 1
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-255px);
+  }
+}
+
+@keyframes jellydonut {
+  0% {
+    transform: translateX(950px);
+    opacity: 0;
+  }
+  29%{
+  	opacity: 0;
+  }
+  30{
+  	opacity: 1;
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-255px);
+  }
+}
+
+
+/*Top to Bottom*/
+
+@keyframes stack {
+  0% {
+    transform: translateY(-400px);
+    opacity: 0;
+  }
+  5%{
+  	opacity: 1
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(920px);
+  }
+}
+
+
