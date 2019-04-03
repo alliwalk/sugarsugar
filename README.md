@@ -1,4 +1,4 @@
-# SugarSugar Project: "Homer's Paradise"
+SugarSugar Project: "Homer's Paradise"
 --------------------------------------
 My project for Creative Coding Club. It's sweets on the screen. :candy: :cake:
 
