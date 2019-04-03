@@ -1,2 +1,4 @@
 # sugarsugar
-Repo for sugarsugar theme, from Creative Coding Club
+Repo for "sugarsugar" theme :candy: :cake:, from Creative Coding Club.
+
+
